@@ -37,7 +37,7 @@ public class Exampractice {
 Display "valid" if it is true.
 Display "invalid" if it is false. */
 
-// 6. Create a condition to check if the length given mobile number is valid
+// 6. Create a condition to check if the length given mobile number is valid (inspo)
         System.out.print("Enter your 11 digit mobile number: ");
             String mobileNumber = scan.next();
                 if (mobileNumber.length()== 11){
@@ -47,9 +47,15 @@ Display "invalid" if it is false. */
                         System.out.println("Please input a valid number.");
                     }
          
- // 7. Create a condition to check if your bestfriend's first name is in
+ // 7. Create a condition to check if your bestfriend's first name is in (copied)
         System.out.print("Enter name of your bestfriend in UPPERCASE: ");
             String bestfriend = scan.next();
+                if (bestfriend == bestfriend.toUpperCase()) {
+                    System.out.println("valid");
+                }
+                else {
+                    System.out.println("invalid");
+                }
 
 
 // 8. Create a condition to check if the answer is correct. answer should be manila or MANILA
@@ -81,7 +87,7 @@ Display "invalid" if it is false. */
                             }
         
         
-// 10. Create a condition to detect if a word is present in the input.
+// 10. Create a condition to detect if a word is present in the input. (copied)
             System.out.println("Use the word \"love\" in any sentence");
                 String love = scan.nextLine();
                     if (love.contains("love")) {
