@@ -31,7 +31,7 @@ public class Exampractice {
 // 5. Create a method to convert megabytes to gigabytes.
         System.out.print("Enter storage value in megabytes: ");
             double megabytes = scan.nextDouble();
-                System.out.println("In gigabytes: " + (megabytes*100));
+                System.out.println("In gigabytes: " + (megabytes/1000));
         
 /* Part 2: Conditions
 Display "valid" if it is true.
