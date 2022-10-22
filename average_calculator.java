@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class App {
+public class average_calculator {
     static Scanner in = new Scanner(System.in);
     public static void main(String[] args) throws Exception {
         System.out.println("Input 3 numbers to find out the average!");
