@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Exampractice {
+public class exam_practice {
     static Scanner scan = new Scanner(System.in);
     public static void main(String[] args) throws Exception {
         System.out.println("Exam 2 practice problems");
