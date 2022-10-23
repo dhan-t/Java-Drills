@@ -40,6 +40,8 @@ public class basic_calculator {
         default:
             System.out.println("Characters are only accepted.");
             break;
+            
+            in.close();
         }
     }
 }
